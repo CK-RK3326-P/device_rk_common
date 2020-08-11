@@ -21,6 +21,7 @@ on zygote-start
 
     chmod 0660 /dev/ttyS0
     chmod 0660 /dev/ttyS1
+    chmod 0666 /dev/ttyS2
     chmod 0660 /dev/vflash
     chmod 0664 /dev/vendor_storage
     chown bluetooth net_bt /dev/vflash
